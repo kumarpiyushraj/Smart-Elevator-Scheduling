@@ -483,5 +483,5 @@ If you find this project useful, please consider giving it a ⭐ on GitHub!
 </div>
 
 <p align="center">
-  <sub>© 2024 Kumar Piyush Raj. All rights reserved.</sub>
+  <sub>© 2025 Kumar Piyush Raj. All rights reserved.</sub>
 </p>
