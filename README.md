@@ -481,3 +481,7 @@ If you find this project useful, please consider giving it a ⭐ on GitHub!
 **Built with ❤️ using Google Colab, PyTorch, and Reinforcement Learning**
 
 </div>
+
+<p align="center">
+  <sub>© 2024 Kumar Piyush Raj. All rights reserved.</sub>
+</p>
