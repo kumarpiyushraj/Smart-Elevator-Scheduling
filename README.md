@@ -339,7 +339,7 @@ These baselines represent the spectrum from **greedy-responsive** (Nearest-Car) 
 <!--  RESULTS                                                                -->
 <!---------------------------------------------------------------------------->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1a30,100:071020&height=64&text=%F0%9F%93%8A%20%20Results%20%26%20Performance&fontSize=22&fontColor=f59e0b&fontAlignY=52&fontAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1a30,100:071020&height=64&text=%F0%9F%93%8A%20%20Results%20%26amp%3B%20Performance&fontSize=22&fontColor=f59e0b&fontAlignY=52&fontAlign=50" width="100%"/>
 
 <br/>
 
