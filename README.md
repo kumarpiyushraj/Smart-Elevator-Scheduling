@@ -20,9 +20,15 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-0d1f3c?style=for-the-badge&logo=pytorch&logoColor=f59e0b&labelColor=0a0f1e&color=0d1f3c)](https://pytorch.org/)&nbsp;
 [![Algorithm](https://img.shields.io/badge/Algorithm-QR--DQN-0d1f3c?style=for-the-badge&logo=databricks&logoColor=fcd34d&labelColor=0a0f1e&color=0d1f3c)](#algorithm)&nbsp;
 [![Platform](https://img.shields.io/badge/Platform-Google%20Colab%20%2F%20GPU-0d1f3c?style=for-the-badge&logo=googlecolab&logoColor=f59e0b&labelColor=0a0f1e&color=0d1f3c)](https://colab.research.google.com/)&nbsp;
+[![IEEE Published](https://img.shields.io/badge/IEEE-Published%20%40%20AICAPS%202026-c8860a?style=for-the-badge&logo=ieee&logoColor=fef3c7&labelColor=0a0f1e)](https://ieeexplore.ieee.org/document/11452978)&nbsp;
 [![Status](https://img.shields.io/badge/Status-Research-c8860a?style=for-the-badge&labelColor=0a0f1e)](https://github.com/kumarpiyushraj/smart-elevator-scheduling)
 
-<br/><br/>
+<br/>
+
+> 🏅 **This work has been accepted and published at IEEE AICAPS 2026.**
+> Read the paper on IEEE Xplore → [10.1109/AICAPS68631.2026.11452978](https://doi.org/10.1109/AICAPS68631.2026.11452978)
+
+<br/>
 
 *Learn. Adapt. Optimise. &nbsp;·&nbsp; From random exploration to expert control*
 
@@ -87,7 +93,7 @@
 
 Traditional elevator control algorithms — SCAN, Nearest-Car, Round-Robin — are **static rule systems**. They were designed for average traffic and have no mechanism to learn or adapt. In a real building, passenger demand is Poisson-distributed, bursty, and floor-asymmetric. A fixed rule that works at 9 AM breaks at noon.
 
-This project trains a **deep reinforcement learning agent** that observes the live state of the building and learns — entirely through interaction — to minimise passenger wait time, reduce energy consumption, and scale gracefully under extreme load.
+This project trains a **deep reinforcement learning agent** that observes the live state of the building and learns — entirely through interaction — to minimise passenger wait time, reduce energy consumption, and scale gracefully under extreme load. The approach and its findings were **peer-reviewed and published at IEEE AICAPS 2026** — validating the methodology beyond the research prototype stage.
 
 <br/>
 
@@ -597,23 +603,53 @@ The current environment uses a single Poisson rate per floor, drawn once per epi
 | Zhang et al. | 2018 | DQN (elevators) | ~12% over SCAN |
 | Kumar et al. | 2020 | PPO + LSTM | ~18% over SCAN |
 | Lee et al. | 2021 | Multi-agent A3C | ~22% (high variance) |
-| **This work** | **2025** | **QR-DQN + Dueling + PER** | **~38% over SCAN, robust validation** |
+| **[Raj, 2026 — IEEE AICAPS](https://ieeexplore.ieee.org/document/11452978)** | **2026** | **QR-DQN + Dueling + PER** | **~38% over SCAN, robust validation** |
+
+</div>
+
+<br/>
+
+<!---------------------------------------------------------------------------->
+<!--  PUBLICATION                                                            -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1a30,100:071020&height=64&text=%F0%9F%8F%85%20%20Publication&fontSize=22&fontColor=f59e0b&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+This research was **peer-reviewed and accepted at the IEEE International Conference on Artificial Intelligence, Computer, Advanced Technology and Problem Solving (AICAPS) 2026** — independently validating the simulation methodology, the QR-DQN adaptation, and the multi-seed evaluation protocol.
+
+<br/>
+
+[![IEEE AICAPS 2026](https://img.shields.io/badge/IEEE%20AICAPS%202026-Published-c8860a?style=for-the-badge&logo=ieee&logoColor=fef3c7&labelColor=0a0f1e)](https://ieeexplore.ieee.org/document/11452978)
+
+<br/>
+
+**📄 [Smart Elevator Scheduling using Quantile Regression Deep Q-Network](https://ieeexplore.ieee.org/document/11452978)**
+*Kumar Piyush Raj · Vellore Institute of Technology · IEEE AICAPS 2026*
+DOI: [10.1109/AICAPS68631.2026.11452978](https://doi.org/10.1109/AICAPS68631.2026.11452978)
 
 </div>
 
 <br/>
 
 **Citation**
+
 ```bibtex
-@misc{raj2025smartelevator,
-  title   = {Smart Elevator Scheduling using Quantile Regression Deep Q-Network},
-  author  = {Raj, Kumar Piyush},
-  year    = {2025},
-  institution = {Vellore Institute of Technology},
-  note    = {MCA Research Project — Roll No: 24MCA0136},
-  howpublished = {\url{https://github.com/kumarpiyushraj/smart-elevator-scheduling}}
+@inproceedings{raj2026smartelevator,
+  title     = {Smart Elevator Scheduling using Quantile Regression Deep Q-Network},
+  author    = {Raj, Kumar Piyush},
+  booktitle = {2026 International Conference on Artificial Intelligence, Computer,
+               Advanced Technology and Problem Solving (AICAPS)},
+  year      = {2026},
+  publisher = {IEEE},
+  doi       = {10.1109/AICAPS68631.2026.11452978},
+  url       = {https://ieeexplore.ieee.org/document/11452978}
 }
 ```
+
 <br/><br/>
 
 <!---------------------------------------------------------------------------->
@@ -627,11 +663,12 @@ The current environment uses a single Poisson rate per floor, drawn once per epi
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-kumarpiyushraj-0d1f3c?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1e)](https://github.com/kumarpiyushraj)&nbsp;
-[![Email](https://img.shields.io/badge/Email-kmpiyushraj%40gmail.com-0d1f3c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0f1e)](mailto:kmpiyushraj@gmail.com)
+[![Email](https://img.shields.io/badge/Email-kmpiyushraj%40gmail.com-0d1f3c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0f1e)](mailto:kmpiyushraj@gmail.com)&nbsp;
+[![IEEE Paper](https://img.shields.io/badge/IEEE%20Paper-AICAPS%202026-c8860a?style=for-the-badge&logo=ieee&logoColor=fef3c7&labelColor=0a0f1e)](https://ieeexplore.ieee.org/document/11452978)
 
 </br>
 
-*© 2025 Kumar Piyush Raj &nbsp;·&nbsp; [GitHub @kumarpiyushraj](https://github.com/kumarpiyushraj)*
+*© 2026 Kumar Piyush Raj &nbsp;·&nbsp; [GitHub @kumarpiyushraj](https://github.com/kumarpiyushraj)*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f59e0b,40:c8860a,70:1a3a6e,100:0a0f1e&height=160&section=footer" width="100%"/>
 
